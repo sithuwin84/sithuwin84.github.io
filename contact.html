@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>My First HTML5 Web Page</title>
+
+        <link rel="stylesheet" href="./css/style01.css">
+
+    </head>
+    <body>
+        <div id="wrapper">
+            <header>
+                <h1>My COMworks Pte Ltd</h1>
+            </header>            
+            <nav>
+                <a href="bootstrap.html">Home</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="#">Experience</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="#">Beliefs</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="#">Contact</a>
+            </nav>
+            <article>
+                <section>
+                    <form class="contact_form" action="#" method="post" name="contact_form">
+                        <ul>
+                            <li>
+                                <h2>Contact Us</h2>
+                                <span class="required_notification">* Denote required fields</span>
+                            </li>
+                            <li>
+                                <label for="name">Name</label>
+                                <input type="text" placeholder="Si Thu Win" required /> <!-- required will check the mandaotry data-->
+                                <span class="form_hint">Name is required</span>
+                            </li>
+                            <li>
+                                <label for="email">Email</label>
+                                <input type="email" placeholder="someone@example.com" required />
+                                <span class="form_hint">Enter proper email format. i.e. someone@example.com</span>
+                            </li>
+                            <li>
+                                <label for="url">Website</label>
+                                <input type="url" placeholder="https://example.com" required pattern="(http|https)://.+" />
+                                <span class="form_hint">Enter valid url format</span>
+                            </li>
+                            <li>
+                                <label for="comments">Comments</label>
+                                <textarea name="message" cols="50" rows="10"></textarea>
+                            </li>
+                            <li>
+                                <button class="submit" type="submit">Submit Form</button>
+                            </li>
+                        </ul>
+                    </form>                   
+                </section>
+            </article>
+            <aside>
+                <h3>Website Development & Services</h3>   
+                <ul>
+                    <li><a href="#">Benefits</a></li>
+                    <li><a href="#">Rates</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                </ul>
+                <br>
+                <br>
+                <p>
+                    COMworks provides professional website development and services in the area of  
+                    developing fantistics websites as well as hosting services.
+                </p>
+                <p>
+                    If you are interested in getting a website for your company or institution, 
+                    and are too busy with your business affairs to create the website by yourself,
+                    we are here and more than happy to help to bring your company success to whole new level.
+                </p>
+                <p>
+                    We will guarantee you a elegant website and red curpet after sales support services for you.
+                    We will create your website with new technologies, innovative design and awesome functionalities.
+                    <a href="#">Contact us</a> with you requirments and design now.
+                </p>
+            </aside>
+            <footer>
+                Copyright &copy; COMworks Pte Ltd
+            </footer>
+        </div>
+    </body>
+</html>

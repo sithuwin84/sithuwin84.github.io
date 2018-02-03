@@ -1,0 +1,14 @@
+h1 {
+   background-color: #f81212; 
+   color: yellow;
+   width: Auto;
+}
+
+p {
+    background: green;    
+}
+
+.nice {
+    background: #ffffff; /* comment: hexa code was used as color */
+    font-weight: bold;    
+}
