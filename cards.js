@@ -16,12 +16,13 @@ var deck = {
 }
  
 var i=0 ;
-
 while (i < deck.suites.length) {
+
     var j=0;     
-    while (j<deck.names.length){
+    while (j < deck.names.length) {
         console.log(deck.suites[i], deck.names[j])
         j++;
     }
+
     i++;
 }

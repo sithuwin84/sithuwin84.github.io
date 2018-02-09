@@ -1,0 +1,15 @@
+h1 {
+    background: yellowgreen;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 31px;
+}
+
+div {
+    background: gray;
+    color:white;
+    text-align: left;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 5px;    
+}
+
